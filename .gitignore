@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.swp
+*~
+
+# Build artifacts (for future Pandoc pipeline)
+build/
+*.docx
+*.epub
+*.pdf
+!research/*.pdf
+
+# Local Claude state
+.claude/
