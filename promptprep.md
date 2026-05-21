@@ -159,3 +159,24 @@ Review - prepared prompts:
 - `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\review-brief-informed.md`
 
 First manual test result to get a feeling on how good the prompts work: `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\review-test-on-ch-01.md`
+
+## Triage decision
+1. approved
+2. approved
+3. all 3; with option (a) for chapter-04
+4. approved
+5. let it there for now
+
+## Prepare promt for external review
+As we have finished reviewing our draft 1 and incorporating the findings into our draft 2, we now have a complete manuscript I want to hand over to an external AI. Please help me design a short prompt for it so that we get a good, usable review as input - e.g. as review md file. Keep in mind: don't tell the other AI too much, as it should have the new reader experience, But tell us if it finds any continuity errors or other mistakes or anything like that. 
+
+## plan on how to integrate the external review and write draft 3
+We did an external review of our manuscript, and there were some findings. Now the question is how to use the external review to correct where our draft went wrong and integrate the findings into a new Draft_3. Can you plan that? if something is unclear, please ask? 
+
+The promt I used to start the review with the other AI models is here: `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\feedback_Draft_2\_external-prompt-preparation.md`
+
+Our manuscript I gave the other AI to review: `Murder-Mystery-Novel-Fantasy-LitRPG-Story\manuscript\Draft_2\_full-manuscript.md`
+
+The review findings are here:
+- `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\feedback_Draft_2\external-editor-review.md`
+- `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\feedback_Draft_2\external-reader-review.md`
