@@ -64,3 +64,26 @@ Theron knows: Calden, Wisp, Mottled/Gravel/Petal, callus on "Vannic's" hand (fil
 ## Length and shape
 
 Target: **~2,500 words** (range 1,800–3,500). Three scenes as listed above.
+
+---
+
+## Draft_3 Amendments
+*Authorized by Phase 2 triage, 2026-05-22. These additions supersede or constrain the scenes above for Draft_3 only.*
+
+### Scene 3 addition — Sable seed beat
+
+After the existing Scene 3 beat (Theron files the woman in the brown coat as "own errand, probably dull"), add approximately one paragraph before the chapter closes.
+
+**What the beat accomplishes:** Theron notices something slightly off about Sable — a small detail that doesn't fit the property-papers persona she projects. He files it without understanding it. This gives the reader (and Theron) a prior observation to draw on when the partnership crystallises in Ch. 7.
+
+**Authorized execution options (choose one):**
+- She asks Theron something about the second-class manifest process — odd for a first-class passenger — and he notices she already knows the answer.
+- She makes a remark that shows she has clocked the lounge's occupants with a precision that surprises him.
+- He notices she is reading the second-class passenger list in a way that is slightly too attentive to be curious.
+
+**Hard constraints:**
+- No Sable interiority. She is read only through action and dialogue.
+- No disclosure of her professional identity or background.
+- Theron files the observation; he does not act on it or pursue it.
+- The beat must fit within the existing lounge scene — it is not a new scene, it is the last paragraph of Scene 3 or a brief close-of-chapter beat.
+- Word count addition: ~100–150 words maximum.

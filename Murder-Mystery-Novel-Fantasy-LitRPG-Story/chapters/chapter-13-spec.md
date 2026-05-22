@@ -46,3 +46,25 @@ Ch. 12 ends with Theron comfortable, the page finished, going down to supper in 
 ## Length and shape
 
 Target: **~2,500 words** (range 1,800–3,500). Opens on a specific action — Sable's report, a corridor, a small piece of information — not on weather or time-of-day. Closes on a concrete detail or a latent question Theron carries forward (the corpse's identity now the urgent question, Petric's panic, a fact that needs checking), not on thematic gloss.
+
+---
+
+## Draft_3 Amendments
+*Authorized by Phase 2 triage, 2026-05-22. These additions supersede or constrain the scenes above for Draft_3 only.*
+
+### Scene 2 or Scene 3 addition — Vannic bridge beats
+
+Within Scene 2 (shared-reveal beat) or Scene 3 (confession aftermath), insert 1–2 sentences of narrator observation or Theron's perception that bridge the Ch. 1 composed-mage register to Vannic's current state.
+
+**What the bridge accomplishes:** A cold reader coming from Ch. 1's imposing, hyper-observant aristocrat needs a line that explains why he is now sleep-deprived and inarticulate. The external reader found the humanization successful; the bridge makes it legible to analytical readers without altering the destination.
+
+**Authorized execution options (choose one or combine):**
+- Theron notices Vannic's physical state: three days in third class, wrong sleeping rhythms, the composed register he used on the dock now visibly effortful to maintain.
+- A brief narrator observation: the man before him is recognisably the same person as the callused mage on the dock — but stripped of the controlled setting that made that register sustainable.
+- Vannic himself acknowledges the shift implicitly: a sentence where the composed register surfaces briefly (he catches himself, straightens, uses a precise phrase) before collapsing again, showing the register is still there but no longer the default.
+
+**Hard constraints:**
+- 1–2 sentences maximum. This is a bridge, not an explanation.
+- Do not make the bridge a lecture or an internal monologue by Vannic.
+- Do not alter the reveal mechanics or the confession beat — only the surrounding register description.
+- Theron's narration maintains close-third; no omniscient explanation.

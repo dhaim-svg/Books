@@ -56,3 +56,23 @@ Tone carried in: clerical, forward, two-channel correspondence. Sunday — a slo
 ## Length and shape
 
 Target: **~2,500 words** (range 1,800–3,500). Three scenes as listed above (Halverstow morning / Sannholt morning via letter / Halverstow afternoon).
+
+---
+
+## Draft_3 Amendments
+*Authorized by Phase 2 triage, 2026-05-22. These additions supersede or constrain the scenes above for Draft_3 only.*
+
+### Scene 1 compression — cut or collapse profile-drafting sequence
+
+The Draft_2 version of Scene 1 contains a profile-drafting sequence in which Theron writes out why his training template excluded Halsa. This content is already implicit from Ch. 26's clerical-credential realization. Cut or substantially collapse it.
+
+**Authorized compression:**
+- Scene 1 may be reduced to a brief setup transition (1–2 paragraphs) that positions Theron on Sunday morning and orients him toward the incoming correspondence, without re-performing the "I missed her" analysis.
+- The emotional truth of Scene 1 (Theron reckoning with the gap in his training) can be preserved in a single sentence rather than a full draft sequence.
+- The chapter's primary weight should land on Scene 2 (Pessel letter confirms apprenticeship line) and Scene 3 (Theron's written reply and structural filing).
+
+**Hard constraints:**
+- Do not cut Scene 2 or Scene 3 content.
+- Do not alter the Pessel letter confirmation beat — it is load-bearing.
+- The "I missed her because of the noble-rivalry template" insight may appear once, briefly; it should not be repeated or expanded.
+- Word count reduction: target ~150–200 words cut from Scene 1.

@@ -37,3 +37,22 @@ Ch. 23 ends with Esherel's source beat — she tells Theron what she saw: Joren 
 ## Length and shape
 
 Target: **~2,500 words** (1,800–3,500). Opens on small specific action — the re-examination, not weather. Closes with the coach departure confirmed for tomorrow — concrete, forward.
+
+---
+
+## Draft_3 Amendments
+*Authorized by Phase 2 triage, 2026-05-22. These additions supersede or constrain the scenes above for Draft_3 only.*
+
+### Scene 1 compression — remove wrong-frame self-critique
+
+The Draft_2 version of Scene 1 contains a passage in which Theron reflects on why his previous framing was wrong — this repeats reasoning Ch. 23 already performed. Cut or compress that reflection.
+
+**Authorized compression:**
+- Scene 1 may open directly on the new framing ("who had motive to stop Joren?") without the meta-reflection on why the old framing failed.
+- The transition from Ch. 23 can be implied through the new question rather than narrated.
+- Preserve the investigative beat (the re-examination itself and any new threads it opens); cut only the backward-looking self-critique.
+
+**Hard constraints:**
+- Do not cut any investigative content that opens new threads or names new persons of interest.
+- Scene 2 (Calden handover) and Scene 3 (Theron/Sable exchange) are untouched — this amendment applies to Scene 1 only.
+- Word count reduction: target ~150–250 words cut from Scene 1.

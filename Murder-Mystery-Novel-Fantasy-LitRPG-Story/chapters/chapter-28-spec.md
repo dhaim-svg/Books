@@ -55,3 +55,26 @@ Tone carried in: Monday — the working week resumes. The clerical-correspondenc
 ## Length and shape
 
 Target: **~2,500 words** (range 1,800–3,500). Four scenes as listed above (magistrate / partial transcript / Sable's dispatch news / evening sit-with-method-page). The chapter is the close of Step 9 and the framing of the method problem for Step 10.
+
+---
+
+## Draft_3 Amendments
+*Authorized by Phase 2 triage, 2026-05-22. These additions supersede or constrain the scenes above for Draft_3 only.*
+
+### Flanking sequence compression
+
+The Draft_2 version of this chapter uses harbour-through-window passages and case-book opening/closing rituals to frame each of the four scenes. These framing elements repeat across Ch. 23–28 and create cumulative sameness.
+
+**Authorized compression:**
+- Retain at most **one** harbour-through-window passage in this chapter (preferably the Monday evening one, which closes the chapter and the who/how hinge).
+- The case-book opening ritual (Theron taking out the book, uncapping the pen, laying it flat, etc.) should appear at most once — the final closing of the book on the last page of the chapter. Earlier scenes can begin mid-action without the ritual setup.
+- Inter-scene transitions may be shortened to a single sentence or a paragraph break rather than a full scene-change beat.
+
+**Hard constraints:**
+- All four scene beats are load-bearing and must be preserved:
+  1. Magistrate meeting and his two professional questions
+  2. Partial Mirren transcript and the Joren-vouched-for-Halsa reveal
+  3. Sable's Copper Finch confirmation (proprietor, 3-4x/year, stopped two years ago, always south)
+  4. Theron writes "Method — unknown" and closes the book
+- Do not alter the investigative content of any scene — only the framing between and around them.
+- Word count reduction: target ~200–300 words cut from framing/transitional material.
