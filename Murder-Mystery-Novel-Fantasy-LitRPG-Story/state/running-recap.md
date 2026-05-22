@@ -1,3 +1,5 @@
+<!-- Draft_3 note: Wisp pronoun = she/her; flight duration = three-day voyage. No recap entries required correction. -->
+
 # Running Recap
 
 Three to five sentences per completed chapter. Facts and tone notes only — no analysis.

@@ -1,3 +1,20 @@
+## Draft_3 Canonical Values
+
+Established in Phase 2 triage (2026-05-22). These values supersede any contradictory text in Draft_2. Phase 3 revisers: match Draft_3 text against this table.
+
+| Element | Canonical value | Draft_2 error location(s) | Fix action |
+|---|---|---|---|
+| Wisp's pronoun | she/her throughout | Ch. 2: six he/him/his instances (paragraphs flagged in `internal-ch-02.md`) | Change all six to she/her |
+| Flight duration | Three-day voyage (Halverstow is ~3 days from departure port) | Ch. 2 System message "11 hours to Halverstow Port" | Change the hours figure to one consistent with a three-day voyage at the narrative point Ch. 2 occurs; Phase 3 reviser to verify elapsed time from context |
+| Manifest — booked total | 72 passengers: 12 first class / 16 second class / 44 third class | No error — correctly stated in Ch. 2 | Ensure this count is labelled as "booked" when it appears |
+| Manifest — investigation scope | 41 entries (subset of booked: those on the gondola during the relevant window) | Ch. 32, 34: "forty-one entries" — correct figure, correct label | No fix needed; ensure context makes clear this is the investigation-scope subset |
+| Manifest — flatlines | 40 (investigation-scope passengers who had no active System notifications during incident window) | Editor's "forty flatlines" paraphrase — this phrase does not appear verbatim in Draft_2 | No fix needed |
+| M. Tannin | First Class, Cabin 3 (Ch. 3 System booking entry is the authoritative record) | Ch. 13: Theron's recall conflates M. Tannin's Cabin 3 with Petor Vann's Cabin 3-T | Rewrite Ch. 13 recall to name the Petor Vann booking line specifically; do not present M. Tannin as Economy |
+| Petor Vann | Third class, cabin 3-T (Lord Vannic's cover identity) | No error in booking records; error only in Ch. 13 recall | Fixed by the M. Tannin fix above |
+| Esherel's "six days" (Ch. 6) | She was counting days before boarding (from when she heard Vannic had booked); this is NOT a continuity error | Editor misread this as "six days since boarding" | Do not alter Ch. 6 |
+
+---
+
 # Known Facts Ledger
 
 One row per fact that a character has learned on-page. Prevents knowledge leaks —
