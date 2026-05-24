@@ -1,0 +1,13 @@
+# Audiobook generation dependencies
+# Install with: pip install -r tools/requirements-audiobook.txt
+#
+# NOTE: kokoro pulls in PyTorch as a dependency (~200-500 MB on CPU-only install).
+# If you have a CUDA GPU and want faster rendering, install torch with CUDA first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu118
+# Otherwise the default CPU torch from pip is fine.
+#
+# On first run, Kokoro downloads its voice model (~300 MB) automatically.
+
+kokoro>=0.9.2
+soundfile>=0.12.1
+numpy>=1.24.0
