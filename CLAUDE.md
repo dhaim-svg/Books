@@ -27,7 +27,7 @@
 ## Manuscript Output
 
 - Drafts go to `manuscript/Draft_1/chapter-NN.md`
-- Post-review rewrites go to `manuscript/Draft_2/`
+- Post-review rewrites go to the next `manuscript/Draft_N/` (currently `manuscript/Draft_4/`)
 
 ---
 

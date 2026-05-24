@@ -12,6 +12,8 @@ Established in Phase 2 triage (2026-05-22). These values supersede any contradic
 | M. Tannin | First Class, Cabin 3 (Ch. 3 System booking entry is the authoritative record) | Ch. 13: Theron's recall conflates M. Tannin's Cabin 3 with Petor Vann's Cabin 3-T | Rewrite Ch. 13 recall to name the Petor Vann booking line specifically; do not present M. Tannin as Economy |
 | Petor Vann | Third class, cabin 3-T (Lord Vannic's cover identity) | No error in booking records; error only in Ch. 13 recall | Fixed by the M. Tannin fix above |
 | Esherel's "six days" (Ch. 6) | She was counting days before boarding (from when she heard Vannic had booked); this is NOT a continuity error | Editor misread this as "six days since boarding" | Do not alter Ch. 6 |
+| Ch.24 investigation count | "eleven of those accounted for"; the two open columns are Fell and Renn (Fell belongs in the remainder, not the accounted-for group) | Draft_3 Ch.24: "twelve of those accounted for" (off by one; Fell miscounted into the cleared group) | Change "twelve" to "eleven" in both the count sentence and the echo passage near chapter end |
+| M. Tannin (closed thread) | A separate passenger from the swap chain; the sealed amendment is unconnected to the Vannic/Joren network; Theron files it as a mundane commercial amendment and never pursues it | M. Tannin thread left open after Ch.5 suspect-list appearance, never resolved | Add one closure sentence in Ch.3 (Theron files a mundane explanation); add one sentence in Ch.13 aft-stairwell passage confirming the amendment is unconnected |
 
 ---
 
