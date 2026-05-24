@@ -17,3 +17,9 @@ build/
 
 # Local Claude state
 .claude/
+
+# Generated audiobook output (WAV files, large)
+audiobook/
+
+# Audiobook Python venv
+.venv-audiobook/

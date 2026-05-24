@@ -40,7 +40,7 @@ When you're done reading, write a review as a markdown file with these sections 
 
 Be honest. I don't need encouragement. If something didn't work for you, tell me what and where (chapter numbers are enough — no need to quote at length).
 
-Aim for a review someone could read in five minutes.
+Aim for a review someone could read in five minutes, write it as markdown.
 ```
 
 ---

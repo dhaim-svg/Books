@@ -180,3 +180,15 @@ Our manuscript I gave the other AI to review: `Murder-Mystery-Novel-Fantasy-LitR
 The review findings are here:
 - `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\feedback_Draft_2\external-editor-review.md`
 - `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\feedback_Draft_2\external-reader-review.md`
+
+## plan on how to integrate the external review and write draft 4
+We did an external review of our manuscript, and there is some feedback. With the first feedback already integrated however, much less real issues were found.
+Now the question is how to use the external review to correct where our draft went wrong and integrate the findings into a new Draft_4. Can you plan that? if something is unclear, please ask? 
+
+The promt I used to start the review with the other AI models is here: `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\feedback_Draft_2\_external-prompt-preparation.md`
+
+Our manuscript I gave the other AI to review: `Murder-Mystery-Novel-Fantasy-LitRPG-Story\manuscript\Draft_3\_full-manuscript.md`
+
+The review findings are here:
+- `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\feedback_Draft_3\editorial_review_draft3.md`
+- `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\feedback_Draft_3\skybound_wyrm_review_draft3.md`
