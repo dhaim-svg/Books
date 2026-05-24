@@ -45,3 +45,29 @@ Ch. 25 closes Act 2. The carved fish has gone south with Sable on the seventh-be
 ## Length and shape
 
 Target: **~2,500 words** (1,800–3,500). Four scenes as listed: clerk arrives with Kolach result; Theron cross-references at the table; Sable's letter is delivered; Theron writes back and closes the case book. Opens on a specific small action (the clerk's knock, the wire summary on the table). Closes on a concrete written line in the case book.
+
+---
+
+## Draft_4 Amendments
+*Authorized by Phase 3 triage, 2026-05-24. These additions supersede or constrain the scenes above for Draft_4.*
+
+### Scene 1 recast — Kolach result received at magistrate's office, not the Arms (Decision 3, Option A)
+
+The Draft_3 version of Scene 1 has the Halverstow magistrate's clerk arriving at the Arms mid-morning with the wire summary. Recast this: Theron is at the magistrate's office (Davren's office) when the wire arrives from Mirren — either following up on the warrant disclosure from Ch.25 or already at a morning meeting. The clerk brings the wire in; Davren is present.
+
+**What changes:**
+- The scene now takes place in the magistrate's office, not the Arms.
+- Davren reads the wire alongside Theron, or reads it first and hands it across. He is a witness to the Renn credential surfacing.
+- Theron's cross-reference work (Scene 2 — pulling the third-class manifest and Renn revisit notes) can remain at the Arms or can happen at a small clerk's table in the magistrate's building.
+- The moment when Theron reads Renn's name on the Kolach list is now a semi-public moment — he is not alone at his corner table.
+
+**What does not change:**
+- All four scenes' investigative content is preserved. The Kolach list, the Renn credential, Sable's letter, Theron's reply, and the case-book closing line are all present.
+- Davren's role remains professional and quiet — he is not obstructive, does not lecture, does not dramatize the moment. He hands the wire and waits.
+- The "do not identify Halsa as the killer" constraint remains absolute. Davren registering the name is not a verdict.
+- The harbour-through-window atmospheric beat that opens most chapters in this stretch is NOT used as the scene-opener. The chapter opens on arrival at the office or the knock at the door.
+
+**Hard constraints:**
+- Davren's characterization must be consistent with Ch.28 (where he asks two pointed professional questions). He should feel like the same person here.
+- Do not add a new scene break for the magistrate's office. The recast is a location change, not a new scene.
+- Word count: neutral (no net change required — location change replaces comparable framing).

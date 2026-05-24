@@ -40,3 +40,24 @@ Ch. 21 ends with the Fell interview completed — one useful piece given, one th
 ## Length and shape
 
 Target: **~2,500 words** (range 1,800–3,500). Opens on small specific action (Theron arriving at the Arms or reviewing Fell interview notes). Closes on the decision — concrete, forward, not thematic.
+
+---
+
+## Draft_4 Amendments
+*Authorized by Phase 3 triage, 2026-05-24. These additions supersede or constrain the scenes above for Draft_4.*
+
+### Scene 1 recast — open in medias res, cut contract-process re-walk (Decision 3, Option A)
+
+The Draft_3 version of Scene 1 opens with Theron and Sable arriving at the Arms and establishing the context before pressing Vannic for the network details. This arrival sequence and the early contract-setup re-walk (Vannic recounting what he already told them about the commission terms) should be removed.
+
+**Authorized recast:**
+- Scene 1 opens with the meeting already in progress — Vannic is mid-testimony, already sweating, already delivering the network details. The reader enters mid-sentence or mid-exchange, not at the door.
+- The information that must arrive in this scene (full network structure: contract terms, Joren's payment, Toll's description of Roven's role, any other network names, mechanics of Toll's subcontracting operation) is preserved. Only the setup before the meeting is active is cut.
+- The comic texture (Vannic sweating, Sable cutting deflections, Theron methodical) must survive. This is the Peacock-in-the-Rain beat; the texture is load-bearing.
+- Vannic's embarrassment register should be established quickly, within the first paragraph.
+
+**Hard constraints:**
+- Do not cut any of Vannic's substantive testimony — all network information (Roven's role, Toll's operation, any other names, the commission mechanics) must reach the page.
+- The Sannholt reply and Pessel reveal (Scene 2) and the Sable-goes-to-Sannholt decision (Scene 3) are untouched.
+- No Sable interiority.
+- Word count reduction for Scene 1: target ~150–200 words cut by removing the arrival/setup sequence.

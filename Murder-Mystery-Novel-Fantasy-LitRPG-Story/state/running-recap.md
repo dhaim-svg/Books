@@ -1,3 +1,4 @@
+<!-- Draft_4 note (2026-05-24): Canonical-value changes from Draft_3 → Draft_4. (1) Ch.24 passenger count: "twelve accounted for" corrected to "eleven accounted for" — Fell remains in the two-name open column alongside Renn. (2) M. Tannin thread closed: Ch.3 now notes Theron picked a merchant as the likely M. Tannin candidate and filed it there; Ch.13 aft-stairwell beat confirms Joren did not match the filing. (3) Ch.26 Scene 1 location: Kolach wire received at magistrate's office (Davren present), not the Arms. No other recap entries required correction. -->
 <!-- Draft_3 note: Wisp pronoun = she/her; flight duration = three-day voyage. No recap entries required correction. -->
 
 # Running Recap

@@ -40,3 +40,21 @@ Ch. 18 ends with Sable's promise made at the gangway foot: "Someone has to tell 
 ## Length and shape
 
 Target: **~2,500 words** (range 1,800–3,500). Three scenes as above. Opens on small specific action, not weather. Closes on a concrete forward-motion beat — the step transitions into Ch. 20.
+
+---
+
+## Draft_4 Amendments
+*Authorized by Phase 3 triage, 2026-05-24. These additions supersede or constrain the scenes above for Draft_4.*
+
+### Scene 2 addition — Roven misread seed (Decision 5, Opportunity A)
+
+In the Vannic beat (Scene 2), add a brief visible misread by Theron that self-corrects within the scene. When Vannic says that "Roven will be aware of the passage," Theron's initial interpretation is that Roven was on the gondola as a passenger — someone monitoring Joren from within the first-class or second-class corridor. He asks Vannic directly whether Roven was aboard. Vannic clarifies: Roven knew of the run in advance and would be waiting at the Halverstow end, not traveling on the Wyrm itself. Theron revises the inference without comment and continues.
+
+**Purpose:** Establishes that Theron can be wrong in the moment, not just structurally wrong (as in the Esherel frame-collapse). The misread should last no more than two exchanges — it is not a subplot, only a visible calibration moment.
+
+**Hard constraints:**
+- Do not have Theron arrive at the gondola-passenger hypothesis through any clue or evidence. It is a premature inference from an ambiguous phrase — the reader sees him jump and land wrong.
+- Do not have Sable correct him. Vannic corrects him.
+- Do not extend the correction into a second inference chain. Theron revises once and moves on.
+- The misread must not introduce any new plot information. Roven's non-presence on the gondola is consistent with everything already established.
+- Word count addition: target ~60–100 words added to Scene 2 for this exchange.

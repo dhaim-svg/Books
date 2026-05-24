@@ -76,3 +76,22 @@ The Draft_2 version of Scene 1 contains a profile-drafting sequence in which The
 - Do not alter the Pessel letter confirmation beat — it is load-bearing.
 - The "I missed her because of the noble-rivalry template" insight may appear once, briefly; it should not be repeated or expanded.
 - Word count reduction: target ~150–200 words cut from Scene 1.
+
+---
+
+## Draft_4 Amendments
+*Authorized by Phase 3 triage, 2026-05-24. These additions supersede or constrain the scenes above for Draft_4 (in addition to the Draft_3 amendment which remains in force).*
+
+### Framing reduction — "He read it twice" pattern and case-book ritual (Decision 3, Option A)
+
+The Draft_3 version of this chapter still uses the "He read it twice" construction and a case-book-open ritual at the start of Theron's Scene 3 (Sunday afternoon, Theron writes back). These patterns repeat across the Ch.18–29 block.
+
+**Authorized compression:**
+- Remove or vary the "He read it twice" construction from Sable's letter arrival in Scene 3. Theron may read the letter once; or the construction may be replaced with a specific action or observation that registers the letter's content without the formula.
+- The case-book-open ritual (removing the book, uncapping the pen, laying it flat) at the start of Scene 3 should be collapsed to at most one preparatory gesture. The chapter's only full case-book ritual, if any, belongs at the end — the close, not the open.
+- The harbour-through-window atmospheric frame should not appear in this chapter. The chapter is interior (the Arms, a front room in Sannholt via the letter). Any ambient framing should be room-specific (the Arms dining table, tea cooling in Pessel's front room) rather than harbour-facing.
+
+**Hard constraints:**
+- Do not alter any investigative content in Scenes 2 or 3.
+- The Pessel apprenticeship confirmation beat (Scene 2) is fully preserved.
+- Word count reduction: target ~80–120 words cut from Scene 3 framing material (net; the Draft_3 Scene 1 amendment already targets Scene 1).

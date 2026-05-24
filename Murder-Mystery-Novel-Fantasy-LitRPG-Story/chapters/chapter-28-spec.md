@@ -78,3 +78,17 @@ The Draft_2 version of this chapter uses harbour-through-window passages and cas
   4. Theron writes "Method — unknown" and closes the book
 - Do not alter the investigative content of any scene — only the framing between and around them.
 - Word count reduction: target ~200–300 words cut from framing/transitional material.
+
+---
+
+## Draft_4 Amendments
+*Authorized by Phase 3 triage, 2026-05-24. These additions supersede or constrain the scenes above for Draft_4 (in addition to the Draft_3 amendment which remains in force).*
+
+### System message trim — column-update message (Decision 7, Option A)
+
+The System column-update message in Scene 2 or Scene 4 (the one that reviews Halsa Renn's structural position in the working column) ends with an editorial note in the form: "uniquely positioned to know subject's professional repertoire" or similar. This final editorial clause is Theron repeating in System form what he has already written in his case book. Trim the System message to its first three clauses (the column-update function) and cut the final interpretive note.
+
+**Hard constraints:**
+- Do not cut the System message itself — only the final editorial clause.
+- The column-update function (confirming the case-book entry, naming the open question) is load-bearing and must survive.
+- This is a line-level trim — no scene restructuring required.
