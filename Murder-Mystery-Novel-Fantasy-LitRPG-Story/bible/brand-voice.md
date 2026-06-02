@@ -86,6 +86,8 @@ Part of the wooden quality is fan-translation/MTL artifact. The *structural* pro
 - **Em-dash quota:** maximum one em-dash per 250 words of prose. Em-dashes are a flavor, not a sauce.
 - **Tricolon discipline:** maximum one rule-of-three construction per chapter, and only when all three elements are genuinely concrete and parallel. Never "the cold, the quiet, and the dawning realization" — that's the abstraction tic.
 - **No "It was not just X, it was Y" sentence forms.** Ever. This is the single most identifiable AI-prose tic of 2024–2026.
+- **Short-sentence chains (the register-clash rule):** Outside a deliberate staccato beat — a reveal, a hard stop, a moment of processing under pressure — do not run more than **two consecutive sentences of ≤6 words**. A clipped sequence must be resolved by a longer connector before the next clip. One-liner paragraphs (a single sentence of ≤6 words standing alone) are a precision tool; three or more in a row in a stage-direction context cost the *recoil effect* they should produce. _Exception:_ discovery/reaction beats and intentional rhetorical anaphora (see §5.4) may exceed this limit when the chain is carrying psychological weight, not procedural narration.
+- **Sentence-opener variety:** No more than two consecutive sentences — or two consecutive one-sentence paragraphs — may begin with the same subject word: He, She, Theron, Sable, The, His, Her, They, It. Avoid runs of "He did X. He did Y. He did Z." or "She did not X. She did not Y. She did not Z." Vary with: object-first ("The notebook fell open."), adverbial lead ("Without waiting, he…"), subordinate clause ("When she looked up,…"), or by merging two beats into one compound sentence. This rule applies at both the action and the dialogue-tag level.
 
 ### 4.2 POV distance
 
@@ -259,6 +261,8 @@ Before drafting a chapter, set timer. After drafting a chapter, run this.
 - [ ] Max one em-dash per 250 words.
 - [ ] Max one tricolon per chapter, all terms concrete.
 - [ ] Banned word check: shimmer, tapestry, realm, beacon, cacophony, delve, underscore, intricate, multifaceted, testament, in the heart of.
+- [ ] **Short-sentence chain check:** No more than 2 consecutive sentences ≤6 words in a stage-direction or transition context. If 3+ short sentences in a row, at least one must be merged or given an adverbial/object-first opener. (Discovery beats and intentional rhetorical anaphora are exempt — see §4.1.)
+- [ ] **Opener variety check:** No 3+ consecutive sentences/paragraphs opening with the same subject word (He / She / The / Theron / Sable). Vary opener or merge the beat.
 
 **Dialogue**
 - [ ] "Said" / "asked" dominate. No adverbial tags.
