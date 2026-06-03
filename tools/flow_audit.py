@@ -18,7 +18,7 @@ USAGE:
     python tools/flow_audit.py
 
     # Different draft:
-    python tools/flow_audit.py --draft Draft_3
+    python tools/flow_audit.py --draft Draft_5
 
     # Print to stdout only (no report file):
     python tools/flow_audit.py --no-report
@@ -44,7 +44,7 @@ if hasattr(sys.stdout, 'buffer'):
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 STORY_DIR = REPO_ROOT / "Murder-Mystery-Novel-Fantasy-LitRPG-Story"
-REPORT_PATH = STORY_DIR / "review" / "feedback_Draft_4" / "_flow-audit.md"
+REPORT_PATH = STORY_DIR / "review" / "feedback_Draft_5" / "_flow-audit.md"
 
 
 # ---------------------------------------------------------------------------
