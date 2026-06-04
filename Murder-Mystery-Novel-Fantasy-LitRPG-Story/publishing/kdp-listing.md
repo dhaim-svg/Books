@@ -7,9 +7,7 @@ Format: **Kindle eBook**, **KDP Select / KU exclusive**. Standalone (no series).
 
 ## Title & subtitle
 - **Title:** The Skybound Wyrm
-- **Subtitle (recommended for discovery):** `A Cozy LitRPG Mystery`
-  - The subtitle is a real search-ranking field on Amazon. Putting the sub-genre here helps
-    cozy/LitRPG readers find you. Optional — say the word and I'll set it (or leave it off).
+- **Subtitle:** `A Cozy LitRPG Mystery`  — ✅ **CONFIRMED**
 
 ## Author
 - **Primary author:** Theo Weyren (pen name — KDP lets you enter this freely)
@@ -18,8 +16,7 @@ Format: **Kindle eBook**, **KDP Select / KU exclusive**. Standalone (no series).
 
 ## Book description / blurb  (≤ 4000 chars; light HTML allowed)
 
-Three options below, low → high on how much they tease. **None spoils the twist.** Pick one (or
-mix lines you like and I'll assemble a final). I'd lead with **Option B** for the LitRPG audience.
+**✅ SELECTED: Option B** (below) is the final blurb. Options A and C are kept for reference.
 
 ### Option A — Cozy-forward, setup only (safest)
 > Newly licensed and quietly insufferable, Theron Mavik has earned exactly one thing: a rest.
@@ -40,7 +37,7 @@ mix lines you like and I'll assemble a final). I'd lead with **Option B** for th
 > world where the magic hums politely in the margins. No gore. No grimdark. Just one clever young man,
 > one impossible cabin, and three days of sky.
 
-### Option B — LitRPG + locked-room hook (recommended)
+### ✅ Option B — LitRPG + locked-room hook (FINAL)
 > **A locked cabin. A body that shouldn't be there. And a System that only tells you what you ask.**
 >
 > Theron Mavik graduated top of his class at the Royal Conservatory — all theory, no practice — and
@@ -95,8 +92,8 @@ mix lines you like and I'll assemble a final). I'd lead with **Option B** for th
 > After launch you can email KDP to be added to niche browse categories if you spot a better fit.
 
 ## Pricing
-- **$4.99** (or $3.99) — both sit in the **70% royalty** band ($2.99–$9.99). $4.99 is standard for a
-  ~110k-word debut; $3.99 is a softer entry point. KU page-reads pay on top of either.
+- **$3.99** ✅ — in the **70% royalty** band ($2.99–$9.99); a softer entry point for a debut.
+  KU page-reads pay on top.
 - Territories: All (Worldwide rights).
 
 ## KDP Select
@@ -114,8 +111,8 @@ mix lines you like and I'll assemble a final). I'd lead with **Option B** for th
 ---
 
 ## Still needed before upload
-- [ ] Confirm subtitle (use "A Cozy LitRPG Mystery"?)
-- [ ] Pick / finalize the blurb (A, B, or C — or a mix)
-- [ ] Cover file at 1600×2560 (Phase C)
-- [ ] EPUB built + previewer-clean (Phase D)
-- [ ] Price decision ($3.99 vs $4.99)
+- [x] Subtitle: **A Cozy LitRPG Mystery**
+- [x] Blurb: **Option B**
+- [x] Price: **$3.99**
+- [x] Cover: `publishing/skybound-wyrm-cover-1600x2560.jpg` (1600×2560 ✓)
+- [ ] EPUB built + previewer-clean (Phase D — needs Pandoc installed)
