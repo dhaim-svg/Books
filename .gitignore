@@ -23,3 +23,7 @@ audiobook/
 
 # Audiobook Python venv
 .venv-audiobook/
+
+# Python
+__pycache__/
+*.pyc

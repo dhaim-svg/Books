@@ -1,0 +1,6 @@
+# Per-book config consumed by the tools in tools/ via bookconfig.resolve_book().
+slug: skybound-wyrm
+title: The Skybound Wyrm
+author: Theo Weyren
+story_dir: Murder-Mystery-Novel-Fantasy-LitRPG-Story   # informational; folder is authoritative
+default_draft: Draft_6

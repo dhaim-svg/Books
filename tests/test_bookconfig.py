@@ -73,6 +73,13 @@ class ResolveBookTests(unittest.TestCase):
             book = bookconfig.resolve_book(_ns(book=str(d)))
             self.assertEqual(book.title, "The Skybound Wyrm: A Cozy LitRPG Mystery")
 
+    def test_default_reads_skybound_config(self):
+        book = bookconfig.resolve_book(_ns())
+        self.assertEqual(book.slug, "skybound-wyrm")
+        self.assertEqual(book.title, "The Skybound Wyrm")
+        self.assertEqual(book.author, "Theo Weyren")
+        self.assertEqual(book.default_draft, "Draft_6")
+
 
 if __name__ == "__main__":
     unittest.main()
