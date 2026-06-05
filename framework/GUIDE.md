@@ -85,7 +85,7 @@ All default to the Skybound book when `--book` is omitted, so existing commands 
 | Specs | `…/chapters/chapter-01-spec.md` … |
 | Drafts | `…/manuscript/Draft_1/` … `Draft_6/` |
 | Reviews | `…/review/feedback_Draft_*/` |
-| Publishing | `…/publishing/` + `publishing/` (repo root) |
+| Publishing | `…/publishing/` |
 
 ---
 
