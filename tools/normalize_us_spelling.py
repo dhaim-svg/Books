@@ -40,6 +40,9 @@ from pathlib import Path
 if hasattr(sys.stdout, "buffer"):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import bookconfig  # noqa: E402
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 STORY_DIR = REPO_ROOT / "Murder-Mystery-Novel-Fantasy-LitRPG-Story"
 
@@ -226,13 +229,15 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--dst", default="Draft_6", help="Destination draft (default Draft_6)")
     p.add_argument("--dry-run", action="store_true", help="Count only; write nothing.")
     p.add_argument("--audit", action="store_true", help="With --dry-run on a normalized draft: list any residual UK forms found.")
+    bookconfig.add_book_arg(p)
     return p.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    src_dir = STORY_DIR / "manuscript" / args.src
-    dst_dir = STORY_DIR / "manuscript" / args.dst
+    book = bookconfig.resolve_book(args)
+    src_dir = book.manuscript(args.src)
+    dst_dir = book.manuscript(args.dst)
     if not src_dir.is_dir():
         print(f"ERROR: source not found: {src_dir}", file=sys.stderr)
         sys.exit(1)
