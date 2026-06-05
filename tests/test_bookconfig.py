@@ -63,6 +63,16 @@ class ResolveBookTests(unittest.TestCase):
             self.assertEqual(book.slug, "q")
             self.assertEqual(book.title, "Quoted Title")
 
+    def test_value_with_colon_is_preserved(self):
+        with tempfile.TemporaryDirectory() as d:
+            d = Path(d)
+            (d / "book.config.yaml").write_text(
+                'title: The Skybound Wyrm: A Cozy LitRPG Mystery\n',
+                encoding="utf-8",
+            )
+            book = bookconfig.resolve_book(_ns(book=str(d)))
+            self.assertEqual(book.title, "The Skybound Wyrm: A Cozy LitRPG Mystery")
+
 
 if __name__ == "__main__":
     unittest.main()
