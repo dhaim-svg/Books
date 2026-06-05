@@ -37,6 +37,9 @@ from pathlib import Path
 if hasattr(sys.stdout, 'buffer'):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import bookconfig  # noqa: E402
+
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -44,7 +47,6 @@ if hasattr(sys.stdout, 'buffer'):
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 STORY_DIR = REPO_ROOT / "Murder-Mystery-Novel-Fantasy-LitRPG-Story"
-REPORT_PATH = STORY_DIR / "review" / "feedback_Draft_5" / "_flow-audit.md"
 
 
 # ---------------------------------------------------------------------------
@@ -441,12 +443,14 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Print to stdout only; do not write _flow-audit.md.",
     )
+    bookconfig.add_book_arg(p)
     return p.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    manuscript_dir = STORY_DIR / "manuscript" / args.draft
+    book = bookconfig.resolve_book(args)
+    manuscript_dir = book.manuscript(args.draft)
 
     if not manuscript_dir.is_dir():
         print(f"ERROR: manuscript directory not found:\n  {manuscript_dir}", file=sys.stderr)
@@ -498,9 +502,10 @@ def main() -> None:
 
     # Full run → write report
     report = build_report(results, args.draft)
-    REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    REPORT_PATH.write_text(report, encoding="utf-8")
-    print(f"\nReport written → {REPORT_PATH.relative_to(REPO_ROOT)}")
+    report_path = book.feedback(args.draft) / "_flow-audit.md"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text(report, encoding="utf-8")
+    print(f"\nReport written → {report_path.relative_to(REPO_ROOT)}")
 
     flagged = [(ch, s) for ch, s in results if s and is_flagged(s)]
     top5 = sorted(flagged, key=lambda x: -x[1]["score"])[:5]
