@@ -42,6 +42,9 @@ from pathlib import Path
 if hasattr(sys.stdout, "buffer"):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import bookconfig  # noqa: E402
+
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -50,10 +53,6 @@ if hasattr(sys.stdout, "buffer"):
 REPO_ROOT = Path(__file__).resolve().parent.parent
 STORY_DIR = REPO_ROOT / "Murder-Mystery-Novel-Fantasy-LitRPG-Story"
 DEFAULT_DRAFT = "Draft_5"
-
-
-def report_path_for(draft: str) -> Path:
-    return STORY_DIR / "review" / f"feedback_{draft}" / "_copyedit-mechanical.md"
 
 
 # ---------------------------------------------------------------------------
@@ -394,12 +393,14 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--chapter", metavar="NN", help="Audit a single chapter (e.g. 01).")
     p.add_argument("--draft", default=DEFAULT_DRAFT, help=f"Manuscript draft (default: {DEFAULT_DRAFT}).")
     p.add_argument("--no-report", action="store_true", help="Print to stdout only; do not write report.")
+    bookconfig.add_book_arg(p)
     return p.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    manuscript_dir = STORY_DIR / "manuscript" / args.draft
+    book = bookconfig.resolve_book(args)
+    manuscript_dir = book.manuscript(args.draft)
     if not manuscript_dir.is_dir():
         print(f"ERROR: manuscript directory not found:\n  {manuscript_dir}", file=sys.stderr)
         sys.exit(1)
@@ -434,7 +435,7 @@ def main() -> None:
         return
 
     report = build_report(results, args.draft)
-    rp = report_path_for(args.draft)
+    rp = book.feedback(args.draft) / "_copyedit-mechanical.md"
     rp.parent.mkdir(parents=True, exist_ok=True)
     rp.write_text(report, encoding="utf-8")
     print(f"\nReport written → {rp.relative_to(REPO_ROOT)}")

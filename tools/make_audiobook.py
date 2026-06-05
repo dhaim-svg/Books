@@ -33,6 +33,9 @@ import sys
 import time
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import bookconfig  # noqa: E402
+
 import numpy as np
 import soundfile as sf
 
@@ -142,20 +145,18 @@ def main() -> None:
         '--speed', type=float, default=1.0,
         help='Narration speed multiplier (default: 1.0; try 1.1 for slightly brisker pace)'
     )
-    parser.add_argument(
-        '--input-dir',
-        default='Murder-Mystery-Novel-Fantasy-LitRPG-Story/manuscript/Draft_4',
-        help='Directory containing chapter-NN.md files'
-    )
-    parser.add_argument(
-        '--output-dir',
-        default='audiobook/Draft_4',
-        help='Output directory for WAV files'
-    )
+    parser.add_argument('--book', metavar='DIR', default=None,
+                        help='Book root (default: Skybound). Sets --input-dir default.')
+    parser.add_argument('--input-dir', default=None,
+                        help='Chapter source dir (default: <book>/manuscript/<default_draft>)')
+    parser.add_argument('--output-dir', default=None,
+                        help='Output dir for WAV files (default: audiobook/<default_draft>)')
     args = parser.parse_args()
 
-    input_dir = Path(args.input_dir)
-    output_dir = Path(args.output_dir)
+    book = bookconfig.resolve_book(args)
+    input_dir = Path(args.input_dir) if args.input_dir else book.manuscript(book.default_draft)
+    output_dir = Path(args.output_dir) if args.output_dir else (
+        bookconfig.REPO_ROOT / "audiobook" / book.default_draft)
 
     if not input_dir.is_dir():
         print(f"ERROR: Input directory not found: {input_dir}", file=sys.stderr)

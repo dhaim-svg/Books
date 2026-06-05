@@ -1,0 +1,7 @@
+# Copy this whole folder to start a new book, then fill these in.
+# The tools in tools/ read this via `--book <this-folder>`.
+slug: my-book-slug              # kebab-case; used for the EPUB filename
+title: My Book Title
+author: Pen Name
+story_dir: my-book-folder       # informational; the folder itself is authoritative
+default_draft: Draft_1
