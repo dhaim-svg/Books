@@ -20,6 +20,9 @@ build/
 !.claude/commands/
 !.claude/agents/
 
+# Local superpowers SDD state
+.superpowers/
+
 # Generated audiobook output (WAV files, large)
 audiobook/
 

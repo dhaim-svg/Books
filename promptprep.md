@@ -192,3 +192,150 @@ Our manuscript I gave the other AI to review: `Murder-Mystery-Novel-Fantasy-LitR
 The review findings are here:
 - `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\feedback_Draft_3\editorial_review_draft3.md`
 - `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\feedback_Draft_3\skybound_wyrm_review_draft3.md`
+
+## Plan until release
+With draft 5 done and I already started reviewing the first chapters, it looks quite good, I want to plan what still neds to be done for publishing this book on amazon. Here is what I know:
+- I need a bookcover
+  - here I want to try and use nanobana and need a prompt for it - I thought the airship with the drakes and our main person theron would look good on the cover
+  - In the guide I follow there is also the talk about using canva to design the title and so on
+- Then I need a publishing review
+  - I don't know if this should be different review than the ones I did until now
+- What else needs to be inside the book before publishing?
+  - chapter list
+  - remark about all is fictional
+  - ?
+- Then I need to register at Amazon KDP
+
+I guess this is a rought todo list for releasing this book. After that I also want to streamline this repo in the way that I want to extract the learned steps into a guide and put that into the root directory so that the framework can be used for another book as well.
+
+But for now back to my list - can you help organize my thoughts and bring it to a better todo list: what to do now, what to prepare for, another review or going to publish - and also maybe bring that then to an orderly list which we can follow.
+
+### Phase B
+1. Pen name: Theo Weyren, no series for now
+2. yes please give me examples
+3. ok
+
+yes pleae commit
+
+## Cozy-fantasy-romance
+**Goal**: Vorbereitung der benötigten outline Dokumente
+**Context**: Mein 2. Buch soll ein Cozy-fantasy-romance buch werden. Ich hab das template bereits kopiert: `cozy-fantasy-romance` und ein research erstellt in bezug auf wie man so ein buch schreibt: `general-research\schreibformeln-strukturmodelle.md`. Beim mystery buch hatten wir die 12-step formula, das passt hier nicht. für unsere bible dokumente sollten wir die richtige struktur aus dem obigen research extrahieren und dann das equivalent zu premise-and-twist erstellen. das ist die vorbereitung für die characktäre und die steps.
+
+### next prep
+Aus der letzten Session haben sich folgende Folgepunkte ergeben:
+```
+Noch zu tun (Folgeschritte, bewusst ausgeklammert):
+1. bible/character-profiles.md füllen (Alexander, Daniela, Felix — leitet aus diesen zwei Docs ab, vor allem Danielas innere
+Wunde und No-Way-Grund festlegen)
+2. chapters/_chapter-step-mapping.md füllen (20 Beats → Kapitel-Mapping)
+3. Template-Reste aufräumen — CLAUDE.md, _template.md, _chapter-step-mapping.md und review/review-brief-informed.md
+referenzieren noch bible/12-step-formula.md und premise-and-twist.md → müssen auf die neuen Dateinamen umgebogen werden
+```
+Punkt 2 & 3 sind hauptsächlich *doing* Punkte.
+
+Der interessante ist Punkt 1. Meine Ideen hast du aus dem `cozy-fantasy-romance\chapters\pre-draft.md` schon gelesen, jetzt bitte ich dich mir ein paar Vorschläge zu Daniela zu machen. Folgende Basis Ideen kommen mir:
+- gescheiterte erste Liebe
+- Zielstrebigkeit (Kaffehaus ist wichtig, kurz vor der kompletten alleinigen übernahme, keine Zeit für Romanzen)
+- Eine Freundin die sich auch in Alexander verliebt und sie will nicht dazwischen stehen
+aber ich bin mir sicher da gibt es noch mehr. Bitte denke meine Ideen noch etwas weiter und füge noch eigene hinzu dich ich dann durchsehen und berwerten kann.
+
+## next preparations
+**Goal:** Vorbereitung der noch abgehenden Dokumente und Buchtitel
+**Context:**
+Siehe als erstes die vorbereiteten Dokumente hier: `cozy-fantasy-romance\bible` wobei manche noch ein stub sind.
+
+Als notwenige Schritte bevor wir mit dem 1. Kapitel beginnen können fehlen jetzt noch:
+- `cozy-fantasy-romance\bible\standing-style.md`
+- `cozy-fantasy-romance\bible\brand-voice.md`
+  
+Und aufbauend auf dem dann die Kapitel Planung, wenn ich mir die Struktur vom 1. Buch ansehe.
+Noch ein Detail zur brand voice: Hier hatten wir im 1. Buch das Problem, dass die Stimme der Hauptperson oder generell der Textverlauf beim lesen "ruckig" oder "holprig" geklungen hat wo wir erst spät drauf gekommen sind. Das sollte hier nicht passieren.
+
+Das andere das ich hier in die Planung einbringen wollte ist, es gibt ja den claude skill `/ghostwriter` soweit ich gehört habe - bringt uns der hierbei etwas? Jetzt vielleicht nicht unbeding beim erstellen des brand-voice 
+
+Bezüglich Buchtitel - ich versuche mich an ein paar Vorschlägen - bitte ergänze du mit kommentaren und eigenen Vorschlägen aus denen ich dann wählen kann:
+- `Hausdrache und Kaffe` mit dem Titelbild von den beiden Protagonisten und dem süßen Hausdrachen
+- `Magischer Staubsauger und Drache`
+- `Stadt, Land, Drache und Kaffee`
+
+
+Ohje - jetz hab ich gerade gegooglet und festgestellt es gibt bereits ein buch: `The Baby Dragon Cafe` das heisst das geht nicht. Meine Handlung geht Gott sei dank in eine andere Richtung wenn ich das auf die schnelle richtig gesehen habe - aber irgendwie möchte ich den Drachen im Titel haben.
+
+## prep für 1. kapitel
+Die letzte Session hat ergeben, dass wir eigentlich bereit wären für das Schreiben des ersten Kapitels. Nur möchte ich noch eine Session dafür aufwenden, den kompletten Workspace dafür nochmal durchzusehen und vorbereiten.
+
+Zum Beispiel ist mir aufgefallen, dass das cloud.md-File im root-Verzeichnis noch sehr strikte Punkte in Richtung des ersten Buch beinhaltet. Daher ist meine Aufgabe an dich jetzt für diese Planung oder für diese Session über den Workspace drüber zu schauen und aufzuräumen. Im root-cloud.md generelle Hinweise auf wie ein Buch zu schreiben, unabhängig davon welches Genre oder welches Buch, und nur in den Büchern selbst dann die dazugehörigen Notizen. Sodass wir beim schreiben des buches nicht durcheinander kommen.
+
+Mach auch einen check ob ich sonst noch was übersehen habe in richtung: root=generel gültig; buch-eben=für dieses buch/genre gültig.
+
+## kleine anpassung für felix den Hausdrachen
+Ich habe mir gerade im Charakter-Sheet die Charaktere durchgelesen, und großteils passt sie, aber für Felix brauchen wir noch eine kleine Anpassung. Gerade durch sein leicht katzenhaftes Wesen soll er bis zu einem gewissen Grad auch ein Gegenpol zu Alexanders Schüchternheit sein. Also eher der kleine Schlingel, der ihm vielleicht so Sachen bringt, die er sonst nicht macht, und so dieses ab und zu kleine pointierte Wesen, das beim Leser für ein Schmunzeln sorgt.
+
+Wie könnten wir das am besten noch hinbringen? 
+
+## Review chapter 01
+**Goal:** Review und Analyse des Chapter1 in Kombination mit meinen Anpassungen - Ableitungen dazu für unsere Dokumente erstellen
+**Context:**
+Auf Basis unsere erstellten Dokumente in `cozy-fantasy-romance\bible` und der spec wurde ein erstes Dokument erstellt. Dieses dient uns als Prüfung zur adaptierung und korrektur etwaiger probleme dienen. Dazu soll folgendes passieren:
+1. Reviews ähnlich wie im 1. Buch nur adaptiert auf dieses, siehe als Vorlage
+   - `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\review-brief-blind.md`
+   - `Murder-Mystery-Novel-Fantasy-LitRPG-Story\review\review-brief-informed.md`
+2. Vergleich zwischen deinem geschrieben Kapitel und meinem adaptierten Kapitel 1: `cozy-fantasy-romance\manuscript\Draft_1\chapter-01-reworked.md`
+   - mir sind vorallem so konstellation wie so verneinungen um bestimmte dinge hervorzuheben wie zb `...als er es kannte — nicht weil die Sonne früher unterging, sondern weil...`, `...roch raus — nicht weil jemand ihn gerufen hatte, sondern weil...` aufgefallen die meiner meinung nach seltener eingesetzt werden sollten.
+
+Wenn wir diese Reviews und die Analyse haben soll darauf ein Vorschlag erstellt werden wie wir die branding voice oder den schreibstil noch anpassen müssen, bevor wir weiter machen.
+
+Frage nach wenn ich mich wo unklar ausgedrück habe und es klärung bedarf.
+
+## Goal für Einarbeitung des reviews und neuschreibung chapter 1
+**Goal**: Erstellung eines optimierten Prompts der unter verwendung des `/Goal` Befehls folgende Aufgaben erledigt:
+1. alle restlichen Baustellen in unsere Dokumente einarbeitet
+2. danach basierend auf den überarbeiteten Dokumenten Chapter 1 neu schreibt
+3. Dann diese mit unseren reviewing tools verifiziert
+4. punkt 2 und punkt 3 wiederholt bis es passt und es sinn macht das ich wieder drauf schaue
+
+**Context**:
+Die letzte Session schloss mit folgendem Abschlussbericht:  
+```
+Alle 4 Punkte eingearbeitet:
+
+- D1 bible/brand-voice.md §7.1 — Negations-Tic-Zeile auf alle 4 Varianten (Affirmativ / Kausal / Vergleichend / Fragment-Paar) mit Budget-Regel und kurzem Warum erweitert.
+- D2 bible/brand-voice.md §9-Checkliste — Prüfpunkt nennt jetzt alle 4 Varianten der Familie mit der Anweisung, jede Instanz im Klartext zu benennen.
+- D3 bible/brand-voice.md §4.2 Fragment-Disziplin — Satz am Ende ergänzt: Fragment-Paare die negieren+affirmativ spiegeln zählen zur Negations-Tic-Familie und unterliegen dem Null-Budget.
+- D4b CLAUDE.md Schritt 5b — §8 → §9 korrigiert.
+
+---
+Nächste Schritte — drei unabhängige Baustellen, du entscheidest die Reihenfolge:
+
+1. Rework-Flags bereinigen — die 7 Begleit-Flags aus der Analyse (chapter-01-reworked.md): Kerzenflammen-Kontinuität, 3 Tippfehler, „Arkane Lampe" capitalization, Spaced Hyphens, Plant #1 semantische Verschiebung. Falls du willst, erledige ich das in einem Schritt.
+2. Blind-Review-Tic #2 adressieren — der Reviewer hat unabhängig ein zweites Muster gefunden: „er kannte es / kannte er auswendig" 4× in einem Kapitel. Kein Regelverstoß, aber rhythmisch erschöpft. Meinungsfrage: reicht ein Hinweis in brand-voice.md, oder klärst du das beim Revidieren von Kapitel 1?
+3. Kapitel 1 überarbeiten (Draft_2) — mit den jetzt geklärten Regeln das KI-Kapitel nach dem informed-Review-Befund revidieren: Gedankenstrich-Frequenz (26→max 7), 5 Negations-Instanzen, Plant #1-Zeile, Wortzahl Richtung 2.500 Wörter.
+```
+
+Ich möchte mir die Funktionen von Claude im Sinne von `/Goal` und/oder `/Workflows` zu nutze machen um die offenen Dokumente einzuarbeiten und basierend darauf ein eine neue version von chapter 1 zu schreiben und das dann zu verifizieren. 
+
+Hilf mir dabei einen optimierten prompt für diese Aufgabe zu erstellen.
+
+Noch eine Anmerkung: Beim schreiben des 1. Buches hat es sich bewährt zum schreiben auf Opus zu setzen - ich habe derzeit den Opusplan Modus - kann man den nur für dieses Projekt deaktivieren oder können wir das in dem prompt so vermerken, bzw. siehst du das immer noch als sinnvoll an?
+
+## Bewertung Draft_2
+**Goal:** Überprüfung von Draft_2 aus Rechtschreibungs und Grammatik Sicht
+
+**Context:**
+Unser Review und überarbeitung der bible Dokumente hatte als Produkt draft2 chapter 1: `cozy-fantasy-romance\manuscript\Draft_2\chapter-01.md` bevor ich dich als reviewer wieder drüber schauen lasse habe ich es selbst gelesen. Insgesamt ist es inhaltlich deutlich besser als Draft 1, aber mir ist die häufige Verwenung (fast übermäßg nach meinem Gefühl) von Beistrichen aufgefallen. Als Beispiel nenne ich dir die Sätze in Zeile 7 und 9 und dann noch viele weitere. Füre ein Lektorat auf das draft durch und schau was du findest.
+
+## Define skilss or commands für wiederkehrende arbeiten
+**Goal:** Definierung von nützlichen skills/commands für wiederkehrede arbeiten an einem buch
+
+**Context:**
+Wenn wir uns die vergangenen Arbeiten an diesem oder dem ersten Buch ansehen, gibt es bestimmte Tätigkeiten, die immer wieder gemacht werden, wie zum Beispiel:
+- schreibe ein Kapitel
+- führe das Review auf ein bestimmtes Kapitel oder ein bestimmten Draft aus
+Bis jetzt haben wir die Kommandos dafür immer wieder neu geschrieben. Eigentlich gäbe es genau für solche wiederkehrenden Tätigkeiten Kommandos.
+Das Ziel in dieser Session ist es, die alten Memories zu durchforsten und allgemeingültige Skills oder Agents oder Kommandos oder eine Kombination derselben zu kreieren, die uns die Arbeiten am Buch für die kommenden Drafts und Chapters erleichtern.
+Dabei sollen folgende Funktionen auf jeden Fall vorkommen:
+- schreiben eines Chapters
+- den Workflow, den wir beim ersten Buch erarbeitet haben, wo wir ein Chapter Probe geschrieben haben und dann in einem einzigen Rutsch das restliche Buch mit einem Sub-Agent pro Chapter
+- natürlich die Reviews, die dann die verschiedenen Sichtweisen dokumentieren
+Dieses Mal könnten wir zusätzlich zu unseren beiden Review-Armten (Blind und Brief informed) auch noch gleich das Lektorat dazufügen.
+
