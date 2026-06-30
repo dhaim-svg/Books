@@ -1,0 +1,10 @@
+# Pandoc metadata for build_epub.py. Fill in per book.
+---
+title: My Book Title
+subtitle: A Subtitle Here
+author: Pen Name
+lang: en-US
+rights: © 2026 Pen Name. All rights reserved.
+description: |
+  Back-cover blurb here. Pandoc embeds this as the EPUB description.
+...

@@ -6,8 +6,8 @@
 
 ## Formula coverage
 
-[Quote the relevant Step(s)/Beat(s) verbatim from `bible/structure-and-beats.md`. If this chapter spans
-two steps, quote both and note where the chapter break falls within the step.]
+[Quote the relevant Beat(s) verbatim from `bible/romance-beat-sheet.md`. If this chapter spans
+two beats, quote both and note where the chapter break falls within the beat.]
 
 ## Scenes to hit
 
@@ -46,4 +46,4 @@ Be specific to this chapter's structural position.]
 
 ## Length and shape
 
-Target: **~2,500 words** (range 1,800–3,500). Approximately [N] scenes as listed above.
+Target: **~2,500 words** (range 1,800–3,200). Approximately [N] scenes as listed above.

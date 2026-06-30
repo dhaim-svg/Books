@@ -1,12 +1,12 @@
 # Chapter ↔ Step Mapping
 
-> Map the 12 structural steps to chapters, and distribute planted details. Fill as you outline.
+> Map your structure model's steps/beats to chapters, and distribute planted details. Fill as you outline.
 
-| Step | Beat (from 12-step-formula.md) | Chapters | Plants introduced |
+| Step / Beat | From bible/structure-and-beats.md | Chapters | Plants introduced |
 |------|--------------------------------|----------|-------------------|
 | 1    |                                |          |                   |
 | 2    |                                |          |                   |
 | …    |                                |          |                   |
-| 12   |                                |          |                   |
+| N    |                                |          |                   |
 
 **Plant distribution:** [list each planted detail and the chapter it first appears.]

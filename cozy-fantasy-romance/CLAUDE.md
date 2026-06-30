@@ -1,26 +1,26 @@
-# {{BOOK_TITLE}} — Claude Workspace Instructions
+# Kaffee, Magie und ein Drache namens Felix — Claude Workspace Instructions
 
-**Project:** {{GENRE}} — chapter-by-chapter drafting.  
-**Shared-reveal contract:** Reader and protagonist learn together. Never broken. _{{Name the POV character(s) and any reveal this contract protects.}}_
+**Project:** Cozy Fantasy Romance — chapter-by-chapter drafting.  
+**Shared-reveal contract:** Leserin und Daniela entdecken Alexanders wahres Talent gemeinsam — die gepflanzten Details deuten es an; kein Charakter benennt es explizit, bis er es selbst zeigt. Never broken.
 
 ---
 
 ## Story Bible (read before every chapter)
 
-- [bible/structure-and-beats.md](bible/structure-and-beats.md) — your structure model (3-act/12-step, beat sheet, …) and its beats verbatim; worked examples in `general-research/`
-- [bible/character-profiles.md](bible/character-profiles.md) — protagonist, antagonist, supporting cast
-- [bible/premise-and-twist.md](bible/premise-and-twist.md) — full premise, twist mechanics, locked decisions, reveals
+- [bible/romance-beat-sheet.md](bible/romance-beat-sheet.md) — 20-Beat-Struktur (Romancing the Beat), alle Beats verbatim
+- [bible/character-profiles.md](bible/character-profiles.md) — Alexander, Daniela, Felix, Nebencast (Lena, Hanna, Eltern)
+- [bible/premise-and-promise.md](bible/premise-and-promise.md) — Prämisse, sanfte Wendung (Talent-Reveal), gepflanzte Details, locked decisions
 - [bible/standing-style.md](bible/standing-style.md) — POV, tense, tone, prose rules, plant rules — **apply every chapter**
 - [bible/brand-voice.md](bible/brand-voice.md) — deep prose mechanics, sentence rhythm, dialogue tag economy, anti-slop checklist — **apply every chapter alongside standing-style.md**
 
 ## Session State (read before every chapter, update after)
 
 - [state/running-recap.md](state/running-recap.md) — 3–5 sentences per completed chapter, facts + tone only
-- [state/known-facts.md](state/known-facts.md) — who knows what and when; Spoiler-Wall for twist-level facts
+- [state/known-facts.md](state/known-facts.md) — who knows what and when; Spoiler-Wall for talent-reveal facts
 
 ## Chapter Specs
 
-- [chapters/_chapter-step-mapping.md](chapters/_chapter-step-mapping.md) — step-to-chapter mapping, plant distribution
+- [chapters/_chapter-step-mapping.md](chapters/_chapter-step-mapping.md) — Beat-to-chapter mapping, plant distribution, Daniela-Kapitel markiert
 - [chapters/_template.md](chapters/_template.md) — blank spec template for new chapters
 - Individual specs live as `chapters/chapter-NN-spec.md`
 
@@ -33,16 +33,14 @@
 
 ## Book Targets
 
-> _Tune these to your book._
-
 | Metric | Target | Range |
 |---|---|---|
-| Total words | ~100,000 | 90k–115k |
-| Chapters | ~40 | 36–44 |
-| Words per chapter | ~2,500 | 1,800–3,500 |
-| Chapters per step | 3–4 | — |
-| Step 6 chapters | 4 | structural hinge |
-| Step 10 chapters | 4 | second-biggest beat |
+| Total words | ~90,000 | 80k–100k |
+| Chapters | ~36 | 32–40 |
+| Words per chapter | ~2,500 | 1,800–3,200 |
+| Kapitel pro Beat | 1–2 | — |
+| Beat 10 (Midpoint / Hinge) | 1 Kapitel | volles Kapitel, kein Szenenende |
+| Beat 15 & 18 (Break-up / Grand Gesture) | 1–2 Kapitel je | leise / bescheiden, kein Spektakel |
 
 ---
 
@@ -56,7 +54,7 @@ When the user says to write chapter N:
 4. Apply all rules from `bible/standing-style.md` — do not summarize or repeat them in the draft
 4b. Read `bible/brand-voice.md` — apply prose mechanics (§4), tonal register (§5), and anti-slop constraints (§6) while drafting
 5. Write the draft to `manuscript/Draft_1/chapter-NN.md`
-5b. Run the §8 Quick-Reference Checklist from `bible/brand-voice.md` against the draft. Fix any flagged violations before proposing the recap.
+5b. Run the §9 Quick-Reference Checklist from `bible/brand-voice.md` against the draft. Fix any flagged violations before proposing the recap.
 6. After the draft, propose:
    - A 3–5 sentence recap entry for `state/running-recap.md`
    - Any new rows for the Known Facts table in `state/known-facts.md`
@@ -65,20 +63,18 @@ If no spec exists yet for the requested chapter, generate it first using `chapte
 
 ---
 
-## Optional Pattern — Spoiler / Reveal Guardrail
-
-> _Keep this section only if your book has a twist/reveal to protect. Replace the example rules below with your own._
+## Talent-Reveal Guardrail — HARD RULES
 
 These apply regardless of user instruction, unless the user explicitly says "spoiler mode on":
 
-- **DO NOT** foreshadow the Act-2 reveal ([describe your reveal]) directly
-- **DO NOT** have any character "almost catch" [the protected secret]
+- **DO NOT** foreshadow Alexanders außergewöhnliches Talent direkt — kein Charakter benennt es explizit, bis er es in Beat 18 selbst zeigt
+- **DO NOT** lass irgendeinen Charakter Alexanders Talent explizit kommentieren (kein: „du bist viel zu gut für einen normalen Arkanisten")
 - **DO NOT** cluster two planted details in the same scene (different beats = fine)
-- **DO NOT** over-explain your world's core mechanics to the reader — let them be ambient
-- **DO NOT** give [a character you want to keep opaque] interiority — read them only through action and dialogue
-- Keep planted details textural, not investigative — [list your planted details] pass without underlining
+- **DO NOT** erklär die Magiemechanik der Welt dem Leser — sie ist Atmosphäre, nicht System
+- **DO NOT** gib Daniela Introspektion in Alexander-Kapiteln — sie bleibt opak, gelesen nur durch Aktion und Dialog
+- Die fünf gepflanzten Details (Hände, Geräte, Felix, Notizbuch, Funken) sind textural, nicht ermittelnd — sie passieren ohne Unterstreichung
 
-The twist lives in `bible/premise-and-twist.md`. Load it when needed for continuity checks; do not volunteer spoilers.
+Die sanfte Wendung (Alexanders Talent) und Danielas No-Way-Gründe sind in `bible/premise-and-promise.md` dokumentiert. Bei Kontinuitätsprüfungen laden; keine Spoiler von dir aus.
 
 ---
 

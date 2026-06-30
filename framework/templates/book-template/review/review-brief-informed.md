@@ -1,7 +1,7 @@
 # Review Brief — Informed (Full Bible Access)
 
 *Copy this prompt into a fresh chat with the reviewer AI. Attach the chapter file AND
-the following files: `bible/12-step-formula.md`, `bible/character-profiles.md`,
+the following files: `bible/structure-and-beats.md`, `bible/character-profiles.md`,
 `bible/premise-and-twist.md`, `bible/standing-style.md`, `state/running-recap.md`,
 `state/known-facts.md`, and `chapters/chapter-NN-spec.md` for the chapter under review.*
 

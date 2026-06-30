@@ -15,8 +15,13 @@ build/
 *.pdf
 !research/*.pdf
 
-# Local Claude state
-.claude/
+# Local Claude state (settings.local.json, caches) — but track shareable commands & agents
+.claude/*
+!.claude/commands/
+!.claude/agents/
+
+# Local superpowers SDD state
+.superpowers/
 
 # Generated audiobook output (WAV files, large)
 audiobook/
