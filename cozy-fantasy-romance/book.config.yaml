@@ -1,0 +1,7 @@
+# Copy this whole folder to start a new book, then fill these in.
+# The tools in tools/ read this via `--book <this-folder>`.
+slug: kaffee-magie-drache-felix
+title: "Kaffee, Magie und ein Drache namens Felix"
+author: Pen Name
+story_dir: cozy-fantasy-romance  # informational; the folder itself is authoritative
+default_draft: Draft_1
