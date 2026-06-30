@@ -6,7 +6,7 @@
 
 ## Formula coverage
 
-[Quote the relevant Step(s) verbatim from `bible/12-step-formula.md`. If this chapter spans
+[Quote the relevant Step(s)/Beat(s) verbatim from `bible/structure-and-beats.md`. If this chapter spans
 two steps, quote both and note where the chapter break falls within the step.]
 
 ## Scenes to hit

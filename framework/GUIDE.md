@@ -23,7 +23,7 @@ operate on any book via `--book <book-dir>`.
 
 1. Copy `framework/templates/book-template/` to a new top-level folder, e.g. `My-Book/`.
 2. Fill `My-Book/book.config.yaml` (slug, title, author, default_draft).
-3. Fill the bible: `12-step-formula.md` (tune the beats), `standing-style.md`,
+3. Fill the bible: `structure-and-beats.md` (pick your structure model — examples in `general-research/`), `standing-style.md`,
    `brand-voice.md`, `character-profiles.md`, `premise-and-twist.md`.
 4. Map structure in `chapters/_chapter-step-mapping.md`.
 

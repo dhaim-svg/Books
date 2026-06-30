@@ -1,15 +1,16 @@
-# {{BOOK_TITLE}} — Claude Workspace Instructions
+# The Skybound Wyrm — Claude Workspace Instructions
 
-**Project:** {{GENRE}} — chapter-by-chapter drafting.  
-**Shared-reveal contract:** Reader and protagonist learn together. Never broken. _{{Name the POV character(s) and any reveal this contract protects.}}_
+**Project:** Cozy LitRPG Murder Mystery — published novel.  
+**Status:** Published on Amazon KDP, 2026-06-04 (Kindle eBook, KU exclusive, $3.99, pen name Theo Weyren). Text-final = Draft_6. These instructions are retained for archival use and potential follow-up work.  
+**Shared-reveal contract:** Reader and Theron learn together. Never broken.
 
 ---
 
 ## Story Bible (read before every chapter)
 
-- [bible/structure-and-beats.md](bible/structure-and-beats.md) — your structure model (3-act/12-step, beat sheet, …) and its beats verbatim; worked examples in `general-research/`
-- [bible/character-profiles.md](bible/character-profiles.md) — protagonist, antagonist, supporting cast
-- [bible/premise-and-twist.md](bible/premise-and-twist.md) — full premise, twist mechanics, locked decisions, reveals
+- [bible/12-step-formula.md](bible/12-step-formula.md) — three-act structure, all 12 steps verbatim
+- [bible/character-profiles.md](bible/character-profiles.md) — Theron, Sable, Joren, Vannic, Halsa, supporting cast
+- [bible/ending-twist.md](bible/ending-twist.md) — full twist mechanics, locked decisions, Act 2 reveal
 - [bible/standing-style.md](bible/standing-style.md) — POV, tense, tone, prose rules, plant rules — **apply every chapter**
 - [bible/brand-voice.md](bible/brand-voice.md) — deep prose mechanics, sentence rhythm, dialogue tag economy, anti-slop checklist — **apply every chapter alongside standing-style.md**
 
@@ -27,13 +28,11 @@
 ## Manuscript Output
 
 - Drafts go to `manuscript/Draft_1/chapter-NN.md`
-- Post-review rewrites go to the next `manuscript/Draft_N/` (bump the number each review pass)
+- Post-review rewrites go to the next `manuscript/Draft_N/` (text-final = `manuscript/Draft_6/`)
 
 ---
 
 ## Book Targets
-
-> _Tune these to your book._
 
 | Metric | Target | Range |
 |---|---|---|
@@ -46,7 +45,7 @@
 
 ---
 
-## Workflow: "Schreib Kapitel N" (write chapter N)
+## Workflow: "Schreib Kapitel N"
 
 When the user says to write chapter N:
 
@@ -65,20 +64,18 @@ If no spec exists yet for the requested chapter, generate it first using `chapte
 
 ---
 
-## Optional Pattern — Spoiler / Reveal Guardrail
-
-> _Keep this section only if your book has a twist/reveal to protect. Replace the example rules below with your own._
+## Spoiler Guardrail — HARD RULES
 
 These apply regardless of user instruction, unless the user explicitly says "spoiler mode on":
 
-- **DO NOT** foreshadow the Act-2 reveal ([describe your reveal]) directly
-- **DO NOT** have any character "almost catch" [the protected secret]
+- **DO NOT** foreshadow the Act 2 reveal (Vannic alive / Joren is the real victim) directly
+- **DO NOT** have any character "almost catch" the identity swap
 - **DO NOT** cluster two planted details in the same scene (different beats = fine)
-- **DO NOT** over-explain your world's core mechanics to the reader — let them be ambient
-- **DO NOT** give [a character you want to keep opaque] interiority — read them only through action and dialogue
-- Keep planted details textural, not investigative — [list your planted details] pass without underlining
+- **DO NOT** explain the System mechanics to the reader — let it be ambient
+- **DO NOT** give Sable interiority — we read her only through action and dialogue
+- The five planted details (calluses, accent slip, carved fish, kindnesses, niece-softness) are **textural, not investigative** — they pass without underlining
 
-The twist lives in `bible/premise-and-twist.md`. Load it when needed for continuity checks; do not volunteer spoilers.
+The twist is in `bible/ending-twist.md`. Load it when needed for continuity checks; do not volunteer spoilers.
 
 ---
 
@@ -87,5 +84,5 @@ The twist lives in `bible/premise-and-twist.md`. Load it when needed for continu
 - Do not summarize the story bible into chapter prose
 - Do not ask Claude to "re-read over the files" — they are already in context
 - Do not use outline-first workflows — follow the chapter spec directly
-- Do not write HUD-style status boxes — use indented italic blocks (if your genre uses system/UI text at all)
+- Do not write HUD-style System boxes — use indented italic blocks
 - Do not use Capitalised Worldbuilding Nouns unless the bible uses them that way
