@@ -34,6 +34,9 @@ say "Schreib Kapitel N" → the model reads the spec + bible + state, drafts to
 `manuscript/Draft_1/chapter-NN.md` → update `state/running-recap.md` and
 `state/known-facts.md`. Repeat to the end.
 
+The `/write-chapter <book> <N>` command automates one chapter; `/write-chapters <book> <from> <to>`
+orchestrates a whole run (one subagent per chapter, sequential). See [`COMMANDS.md`](COMMANDS.md).
+
 ## 5. Phase 2 — Review & revise
 
 Blind review (`review/review-brief-blind.md`) and informed review
@@ -41,6 +44,10 @@ Blind review (`review/review-brief-blind.md`) and informed review
 flow audit (`tools/flow_audit.py --book My-Book`). Triage findings into a `_triage.md`,
 then run parallel **copy-faithful** revision agents ("copy faithfully, change only what's
 listed") into the next `Draft_N`.
+
+The `/review-chapter <book> <N> [draft]` command runs the blind + informed + **Lektorat**
+(German line-edit) reviews together in parallel and assembles one feedback file. See
+[`COMMANDS.md`](COMMANDS.md).
 
 ## 6. Phase 3 — Copyedit & finalize
 
